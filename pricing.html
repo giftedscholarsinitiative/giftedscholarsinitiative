@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Your Startup Name</title>
+    <style>
+        :root {
+            --primary-color: mediumaquamarine; /* Updated to mediumaquamarine */
+            --secondary-color: black; /* Adjusted for contrast */
+            --background-color: #ecf0f1;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Georgia', serif; /* Changed to serif font */
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .pricing-tile {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .pricing-tile:hover {
+            transform: translateY(-5px);
+        }
+        .pricing-tile h2 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin: 1rem 0;
+        }
+        .features {
+            list-style-type: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
+        .features li {
+            margin-bottom: 0.5rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #1abc9c; /* Darker shade for hover effect */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Pricing Plans</h1>
+    </header>
+    <div class="container">
+        <div class="pricing-grid">
+            <div class="pricing-tile">
+                <h2>Complete Program</h2>
+                <p class="price">$230</p>
+                <ul class="features">
+                    <li>University-level classes</li>
+                    <li>Major roadmap and Job market analysis</li>
+                     <li>AI-powered major matching</li>
+                    <li>Networking coffee chat</li>
+                   
+                </ul>
+                <a href="https://forms.gle/Ceiw7FkoWemtxpwX9" class="cta-button">Get Started</a>
+            </div>
+            <div class="pricing-tile">
+                <h2>University Classes</h2>
+                <p class="price">$140</p>
+                <ul class="features">
+                    <li>3 one-on-one classes: $150</li>
+                    <li>Expert instructors</li>
+                    <li>Tailored to your major</li>
+                </ul>
+                <a href="https://forms.gle/Ceiw7FkoWemtxpwX9" class="cta-button">Choose Plan</a>
+            </div>
+            <div class="pricing-tile">
+                <h2>Major Roadmap</h2>
+                <p class="price">$50</p>
+                <ul class="features">
+                    <li>Comprehensive major roadmap</li>
+                    <li>In-depth job market analysis</li>
+                    <li>Career trajectory insights</li>
+                    <li>Salary expectations</li>
+                </ul>
+                <a href="https://forms.gle/Ceiw7FkoWemtxpwX9" class="cta-button">Get Insights</a>
+            </div>
+            <div class="pricing-tile">
+                <h2>AI Major Matching</h2>
+                <p class="price">$60</p>
+                <ul class="features">
+                    <li>Personalized major recommendations</li>
+                    <li>Skills and interests assessment</li>
+                    <li>Career alignment analysis</li>
+                    <li>Data-driven insights</li>
+                </ul>
+                <a href="https://forms.gle/Ceiw7FkoWemtxpwX9" class="cta-button">Find Your Match</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
